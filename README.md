@@ -33,7 +33,7 @@
 
 Aplicação simples feita em ReactJS que, por meio da API do Open Weather, busca a previsão do tempo de uma cidade.
 
-Para ver o repositório de onde tirei a ideia para esse aplicativo, [clique aqui](https://github.com/felipefialho/frontend-challenges). 
+Para acessar o repositório de onde tirei a ideia para esse aplicativo, [clique aqui](https://github.com/felipefialho/frontend-challenges). 
 
 ## 🚀 Tecnologias
 
