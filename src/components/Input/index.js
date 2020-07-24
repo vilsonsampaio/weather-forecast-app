@@ -8,7 +8,7 @@ const Input = () => {
   const { setData, city, setCity, setLoading } = useContext(GlobalContext);
 
   const inputElement = useRef();
-  const APIkey = "Coloque aqui a chave de sua API";
+  const APIkey = "Insira aqui sua APIkey";
 
   function handleClick(event) {
     event.preventDefault();
