@@ -31,7 +31,7 @@
 
 ## 💻 Sobre o projeto
 
-Aplicação simples que, por meio da API do Open Weather, faz a busca da situação de tempo, com base na cidade e país passado no input.
+Aplicação simples feita em ReactJS que, por meio da API do Open Weather, busca a previsão do tempo de uma cidade.
 
 ## 🚀 Tecnologias
 
