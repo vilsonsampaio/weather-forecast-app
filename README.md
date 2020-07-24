@@ -46,23 +46,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💾 Como instalar
 
-1. Primeiro, é necessário que tenha instalado em seu computador o [NodeJS](https://nodejs.org/en/docs/) e o [Yarn](https://yarnpkg.com/getting-started). Após a instalação dos mesmos, clone esse repositório com o seguinte comando no terminal:
+1. Primeiro, é necessário que tenha instalado em seu computador o [NodeJS](https://nodejs.org/en/docs/) e o [Yarn](https://yarnpkg.com/getting-started). Após a instalação dos mesmos, clone esse repositório com o seguinte comando no terminal: `git clone https://github.com/vilsonsampaio/weather-forecast-app`
 
-`git clone https://github.com/vilsonsampaio/weather-forecast-app`
+2. Navegue para o diretório criado através do clone feito: `cd weather-forecast-app`
 
-2. Navegue para o diretório criado através do clone feito:
-
-`cd weather-forecast-app`
-
-3. Dentro da pasta da aplicação, instale as dependências necessárias usando:
-
-`yarn` ou `yarn add`
+3. Dentro da pasta da aplicação, instale as dependências necessárias usando: `yarn` ou `yarn add`
 
 4. Na sua IDE, abra a pasta `src/`, em seguida `components/`, `Input/`, e abra o arquivo `index.js`. Dentro do index, procure pela constante de nome `APIkey` e insira ali a chave da API obtida por meio do cadastro no site da [Open Weather](https://openweathermap.org/home/sign_in).
 
-5. Tudo pronto? Agora é só rodar a aplicação:
-
-`yarn start`
+5. Tudo pronto? Agora é só rodar a aplicação: `yarn start`
 
 
 ## 🌐 Projeto final
