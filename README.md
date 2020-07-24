@@ -54,7 +54,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 4. Na sua IDE, abra a pasta `src/`, em seguida `components/`, `Input/`, e abra o arquivo `index.js`. Dentro do index, procure pela constante de nome `APIkey` e insira ali a chave da API obtida por meio do cadastro no site da [Open Weather](https://openweathermap.org/home/sign_in).
 
-5. Tudo pronto? Agora é só rodar a aplicação: `yarn start`
+5. Tudo pronto? Agora é só rodar a aplicação `yarn start` e abrir o endereço `http://localhost:3000/` em seu navegador.
 
 
 ## 🌐 Projeto final
