@@ -1,0 +1,16 @@
+footer {
+  width: 100%;
+
+  position: absolute;
+  bottom: 0;
+
+  padding: 0.875rem;
+  text-align: center;
+  background: #ff7f00;
+  color: white;
+}
+
+footer a {
+  color: white;
+  font-weight: bold;
+}

@@ -1,0 +1,71 @@
+.card {
+  margin-bottom: 2rem;
+  padding: 2rem;
+
+  background: rgba(255, 255, 255, 0.9);
+
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card .header {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card > h1 {
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+.card .info,
+.card .info .minmax,
+.card .info .minmax > p {
+  display: flex;
+  align-items: center;
+}
+
+.card .info {
+  font-size: 1.2rem;
+}
+
+.card .info strong {
+  margin-left: 5px;
+}
+
+.card .info div.right {
+  margin-left: 30px;
+}
+
+.card .info .minmax p > span {
+  display: flex;
+  /* width: 2px; */
+}
+
+.card .info .minmax > p.max {
+  margin-left: 10px;
+}
+
+.card .info > div > p:nth-child(2) {
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .card .header {
+    font-size: 1rem;
+  }
+  .card > h1 {
+    font-size: 1.5rem;
+  }
+  .card .info {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  color: #505050;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #505050;
+  text-decoration: none;
+}
+
+svg {
+  max-width: 100%;
+}

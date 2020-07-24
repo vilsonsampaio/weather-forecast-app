@@ -1,0 +1,37 @@
+.input {
+  position: relative;
+}
+
+input {
+  width: 100%;
+
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+
+  outline: none;
+}
+
+.input > a {
+  position: absolute;
+
+  top: 50%;
+  right: 20px;
+
+  transform: translateY(-50%);
+
+  background-color: white;
+  padding: 0 5px;
+}
+
+@media (max-width: 600px) {
+  .input {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  input {
+    font-size: 0.7rem;
+  }
+}
