@@ -1,68 +1,79 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  ⛅ Weather Forecast App
+</h1>
 
-## Available Scripts
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vilsonsampaio/weather-forecast-app.svg?color=ff7f00">
+   
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/top/vilsonsampaio/weather-forecast-app.svg?color=ff7f00">
 
-In the project directory, you can run:
+  <a href="https://github.com/vilsonsampaio/weather-forecast-app/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vilsonsampaio/weather-forecast-app.svg?color=ff7f00">
+  </a>
 
-### `yarn start`
+  <a href="https://github.com/vilsonsampaio/">
+    <img alt="Author" src="https://img.shields.io/badge/author-Vilson%20Sampaio-ff7f00">
+  </a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a href="#-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-funcionalidades">Como instalar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto-final">Projeto final</a>
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<br>
 
-### `yarn test`
+<p align="center">
+    <img alt="Weather Forecast App" src="./.github/desktop.png" width="100%">
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Sobre o projeto
 
-### `yarn build`
+Aplicação simples que, por meio da API do Open Weather, faz a busca da situação de tempo, com base na cidade e país passado no input.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Tecnologias
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ReactJS](https://reactjs.org/)
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html) (useState, useEffect, useRef, useContext)
+- [React Icons](https://github.com/react-icons/react-icons)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [API do OpenWeather](https://openweathermap.org/api)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-### `yarn eject`
+## 💾 Como instalar
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Primeiro, é necessário que tenha instalado em seu computador o [NodeJS](https://nodejs.org/en/docs/) e o [Yarn](https://yarnpkg.com/getting-started). Após a instalação dos mesmos, clone esse repositório com o seguinte comando no terminal:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`git clone https://github.com/vilsonsampaio/weather-forecast-app`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Navegue para o diretório criado através do clone feito:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`cd weather-forecast-app`
 
-## Learn More
+3. Dentro da pasta da aplicação, instale as dependências necessárias usando:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`yarn` ou `yarn add`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Na sua IDE, abra a pasta `src/`, em seguida `components/`, `Input/`, e abra o arquivo `index.js`. Dentro do index, procure pela constante de nome `APIkey` e insira ali a chave da API obtida por meio do cadastro no site da [Open Weather](https://openweathermap.org/home/sign_in).
 
-### Code Splitting
+5. Tudo pronto? Agora é só rodar a aplicação:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+`yarn start`
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## 🌐 Projeto final
 
-### Making a Progressive Web App
+### 🖥 Desktop
+![](./.github/desktop.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### 📱 Mobile
+![](./.github/mobile.png)
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---
+<p align="center">
+Feito com 🧡 <a href="https://www.linkedin.com/in/vilsonsampaio/">Vilson Sampaio</a>
+</p>
